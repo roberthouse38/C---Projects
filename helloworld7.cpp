@@ -69,7 +69,7 @@ int main()
     std::cout << "enter a symbol : ";
     std::cin >> symbol;
 
-    //create rows x columns 
+    //create rows & columns 
     for (int i = 1; i <= rows; i++)
     {
         for(int j = 1; j <= columns; j++)
