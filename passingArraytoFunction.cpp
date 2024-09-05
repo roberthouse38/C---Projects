@@ -15,7 +15,7 @@ return 0;
 }
 
 
-// when a function receive an array, it decays into a POINTER
+// when a function receive an array  (double prices[]), it decays into a POINTER
 // the function no longer knows the size of the array is
 double getTotal(double prices[], int size){
     double total = 0;
